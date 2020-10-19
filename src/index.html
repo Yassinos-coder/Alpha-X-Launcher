@@ -1,0 +1,73 @@
+<!-- By Yassinos Coder -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/src/img/app.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./MainWebSystem.js"></script>
+    <script src="./index.js"></script>
+    <title>AlphaX Launcher</title>
+</head>
+
+<body onload="javascript:getping()">
+    <!-- Gif For App -->
+    <a href="./index.html"><img class="Gif-Logo" src="./img/ALPHA-V9.gif" alt="Alpha X Is The Best"></a>
+    <!-- Header + Nav Bar +  List -->
+    <div id="Header">
+        <header>
+            <nav class="nav">
+                <ul>
+                    <li>
+                        <button id="FiveMConnect" onclick="OpenFivem()">Connect To 5M</button>
+                    </li>
+                    <li>
+                        <button onclick="OpenDiscord()"> Join our Discord</button>
+                    </li>
+                    <li>
+                        <button onclick="OpenWebsite()">Visit our WebSite</button>
+                    </li>
+                    <li>
+                        <button onclick="CleanCache()">Clean Cache</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- Info Boxes -->
+    <div id="Info-Box">
+        <h2>☛ UPDATES :</h2>
+        <iframe name="iframeBoxes" id="iframeBoxes" src="https://yassinos-web.000webhostapp.com/Updates-1.html" width="450" frameborder="0"></iframe>
+    </div>
+    <div id="Info-Box-2">
+        <h2>☛ KNOWN BUGS :</h2>
+        <iframe name="iframeBoxes2" id="iframeBoxes2" src="https://yassinos-web.000webhostapp.com/Know-Bugs-1.html" width="450" frameborder="0"></iframe>
+    </div>
+    <div id="Info-Box-3">
+        <h2>☛ UPDATES :</h2>
+        <iframe name="iframeBoxes3" id="iframeBoxes3" src="https://yassinos-web.000webhostapp.com/Updates-2.html" width="450" frameborder="0"></iframe>
+
+    </div>
+    <div id="Info-Box-4">
+        <h2>☛ Servers Status :</h2>
+        <iframe name="iframeBoxes4" id="iframeBoxes4" src="https://yassinos-web.000webhostapp.com/Know-Bugs-2.html" width="450" frameborder="0"></iframe>
+    </div>
+    <footer id="Footer">
+        <div id="Footer-Info">
+            <p>Discord :</p>
+            <p id="StatusDiscord" class="p1-status"></p>
+            <p class="FiveM-P">FiveM Server :</p>
+            <p id="pinger" class="p2-status"></p>
+            <p class="Web">WebSite :</p>
+            <p id="Web" class="p3-status"></p>
+            <p class="Steam">Steam :</p>
+            <p id="StatusSteam" class="p4-status"></p>
+            <p class="FiveMPlayers">FiveM Players :</p>
+            <p class="p5-status">255</p>
+        </div>
+    </footer>
+</body>
+
+</html>

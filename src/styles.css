@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
+body {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url('./img/background.png');
+    background-size: cover;
+}
+
+
+/* Information Boxes Style */
+
+#Info-Box {
+    margin-top: 89px;
+    margin-left: 46px;
+    width: 450px;
+    color: white;
+    height: 152px;
+    background-color: transparent;
+    border-color: orange;
+    border-style: solid;
+    border-bottom: none;
+    font-size: 14px;
+}
+
+#Info-Box-2 {
+    margin-top: -152px;
+    position: absolute;
+    margin-left: 644px;
+    width: 450px;
+    color: white;
+    height: 152px;
+    background-color: transparent;
+    border-color: orange;
+    border-style: solid;
+    border-bottom: none;
+    font-size: 14px;
+}
+
+#Info-Box-3 {
+    margin-top: 89px;
+    margin-left: 46px;
+    width: 450px;
+    height: 152px;
+    color: white;
+    background-color: transparent;
+    border-color: orange;
+    border-style: solid;
+    border-bottom: none;
+    font-size: 14px;
+}
+
+#Info-Box-4 {
+    margin-top: -152px;
+    position: absolute;
+    margin-left: 644px;
+    color: white;
+    width: 450px;
+    height: 152px;
+    background-color: transparent;
+    border-color: orange;
+    border-style: solid;
+    border-bottom: none;
+    font-size: 14px;
+}
+
+
+/* Header Stuff */
+
+.nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 51px;
+    margin-left: -124px;
+}
+
+.nav li {
+    display: inline-block;
+    color: black;
+}
+
+button {
+    background-color: black;
+    margin-left: 133px;
+    text-decoration: none;
+    color: white;
+    width: 179px;
+    display: block;
+    padding: 9px;
+    font-size: 20px;
+    transition: 0.4s;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+button:hover {
+    color: yellow;
+}
+
+
+/* Not Used Nav a Cuz of buuton deleter */
+
+
+/*.nav a {
+    text-decoration: none;
+    color: white;
+    width: 116px;
+    display: block;
+    padding: 9px;
+    font-size: 17px;
+    transition: 0.4s;
+}*/
+
+
+/* Alpha Gif */
+
+.Gif-Logo {
+    border-radius: 50%;
+    width: 94px;
+    margin-left: 43%;
+    position: absolute;
+    margin-top: 24%;
+}
+
+
+/* Img Connect */
+
+.img-connect {
+    width: 120px;
+    height: 120px;
+}
+
+
+/* Footer / Status */
+
+#Footer {
+    margin-top: 65px;
+    margin-left: 25px;
+    color: white;
+    font-size: 15px;
+}
+
+#Footer-Info {
+    display: inline-block;
+    position: fixed;
+}
+
+.p1-status {
+    text-decoration: none;
+    margin-top: -32px;
+    margin-left: 75px;
+}
+
+.FiveM-P {
+    margin-top: -32px;
+    margin-left: 183px;
+}
+
+.p2-status {
+    text-decoration: none;
+    margin-top: -32px;
+    margin-left: 302px;
+}
+
+.Web {
+    margin-top: -32px;
+    margin-left: 794px;
+}
+
+.p3-status {
+    text-decoration: none;
+    margin-top: -32px;
+    margin-left: 871px;
+}
+
+.Steam {
+    margin-top: -32px;
+    margin-left: 934px;
+}
+
+.p4-status {
+    text-decoration: none;
+    margin-top: -32px;
+    margin-left: 995px;
+}
+
+.FiveMPlayers {
+    margin-top: -32px;
+    margin-left: 1065px;
+}
+
+.p5-status {
+    text-decoration: none;
+    margin-top: -32px;
+    margin-left: 1179px;
+}
