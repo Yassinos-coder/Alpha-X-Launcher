@@ -194,5 +194,23 @@ button:hover {
 .p5-status {
     text-decoration: none;
     margin-top: -32px;
-    margin-left: 1179px;
+    margin-left: 1120px;
+}
+
+.p5-status-a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.p5-status-a a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
+
+.p5-status-a a:active {
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
 }

@@ -1,5 +1,5 @@
 require('electron');
-
+// Coded By yassinos with the help of simon
 
 function OpenWebsite() {
     require("electron").shell.openExternal("https://alphagamingcommunity.000webhostapp.com/");
@@ -49,7 +49,7 @@ const ping = require('web-pingjs');
 require('web-pingjs');
 
 function getping() {
-    ping('https://196.206.179.106:30180').then(function(delta) {
+    ping('https://41.251.71.2:30180').then(function(delta) {
         resultTrue()
     }).catch(function(err) {
         resultFalse()
@@ -146,5 +146,27 @@ function DiscordOpen() {
 }
 
 
+
+const API_URL = `https://www.cloudflare.com/cdn-cgi/trace`;
+
+function onDataRecieve() {
+    const ipRegex = /[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/
+    const IP = xhttp.responseText.match(ipRegex)[0];
+    document.getElementById("Ipadress").innerHTML = IP
+}
+const xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = onDataRecieve;
+xhttp.open("GET", API_URL, true);
+xhttp.send();
+
+function HideMe() {
+    document.getElementById('Ipadress').style.display = "none";
+    document.getElementById('IpadressHidden').innerHTML = ('Hidden');
+    document.getElementById('IpadressHidden').style.color = "red";
+}
+
+
+
+setInterval(onDataRecieve, 2000);
 setInterval(SteamOpen, 2000);
 setInterval(DiscordOpen, 2000);
